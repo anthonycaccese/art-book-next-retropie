@@ -1,0 +1,159 @@
+<!--
+theme name:    Art Book Next (Retropie Edition)
+author:        Anthony Caccese
+license:       creative commons CC-BY-NC-SA
+based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
+-->
+
+<theme>
+   <formatVersion>6</formatVersion>
+
+   <variables>
+      <!-- 
+      Apsect Ratio Options:
+      16:10 = 16-10
+      16:9 = 16-9
+      --><aspectRatio>16-9</aspectRatio>
+      <!-- 
+      Gamelist Style Options:
+      metadata-off
+      metadata-max
+      --><gameListStyle>metadata-max</gameListStyle>
+      <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
+      <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
+      <spacerImage>./_inc/images/utility/space.png</spacerImage>
+   </variables>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="logo">
+         <path>./_inc/images/systems/${system.theme}.svg</path>
+      </image>
+      <text name="logoText">
+         <fontPath>${logoFont}</fontPath>
+         <forceUppercase>true</forceUppercase>
+         <lineSpacing>1</lineSpacing>
+         <alignment>center</alignment>
+         <color>ffffff</color>
+      </text>
+   </view>
+
+   <view name="system">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>111111</color>
+      </image>
+      <carousel name="systemcarousel">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <type>horizontal</type>
+         <color>00000000</color>
+         <size>1 1</size>
+         <logoScale>2</logoScale>
+         <logoSize>0.25 0.15</logoSize>
+         <maxLogoCount>1.5</maxLogoCount>
+      </carousel>
+      <text name="systemInfo">
+         <pos>1 1</pos>
+      </text>
+      <image name="background-art" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0 1</size>
+         <color>ffffffcc</color>
+         <path>./_inc/images/utility/default-background.jpg</path>
+         <path>./_inc/images/systems/${system.theme}.png</path>
+      </image>
+      <image name="background-art-mask" extra="true">
+         <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <size>0 1</size>
+         <path>./_inc/images/utility/background-art-mask.svg</path>
+      </image>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <color>aaaaaa</color>
+         <zIndex>2</zIndex>
+      </image>
+      <text name="logoText">
+         <origin>0.5 0.5</origin>
+         <color>ffffffcc</color>
+         <zIndex>2</zIndex>
+      </text>
+      <textlist name="gamelist">
+         <origin>0 0</origin>
+         <alignment>left</alignment>
+         <fontPath>${bodyFont}</fontPath>
+         <selectorColor>111111</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>444444</primaryColor>
+         <secondaryColor>444444</secondaryColor>
+         <zIndex>2</zIndex>
+      </textlist>
+      <image name="gamelist-background" extra="true">
+         <origin>0 0</origin>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>111111</color>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>222222</color>
+         <zIndex>0</zIndex>
+      </image>
+   </view>
+
+   <view name="basic">
+      <image name="background-art" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0 1</size>
+         <tile>false</tile>
+         <color>ffffffcc</color>
+         <path>./_inc/images/utility/default-background.jpg</path>
+         <zIndex>0</zIndex>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
+         <fontPath>${bodyFont}</fontPath>
+         <alignment>left</alignment>
+      </text>
+      <text name="md_genre,md_lbl_players,md_players">
+         <color>888888</color>
+      </text>
+      <text name="md_description">
+         <color>dddddd</color>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
+         <color>888888</color>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
+         <fontPath>${bodyFont}</fontPath>
+         <color>888888</color>
+         <alignment>left</alignment>
+      </datetime>
+      <rating name="md_rating">
+         <color>555555</color>
+      </rating>
+   </view>
+
+   <include>./aspect-ratio-${aspectRatio}.xml</include>
+   <include>./gamelist-${gameListStyle}-${aspectRatio}.xml</include>
+
+</theme>
