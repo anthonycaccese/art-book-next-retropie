@@ -17,8 +17,8 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       <!-- 
       Gamelist Style Options:
       metadata-off
-      metadata-max
-      --><gameListStyle>metadata-max</gameListStyle>
+      metadata-on
+      --><gameListStyle>metadata-on</gameListStyle>
       <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
       <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
       <spacerImage>./_inc/images/utility/space.png</spacerImage>
