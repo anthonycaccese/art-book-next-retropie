@@ -2,7 +2,7 @@
 theme name:    Art Book Next (Retropie Edition)
 author:        Anthony Caccese
 license:       creative commons CC-BY-NC-SA
-based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
+ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
 -->
 
 <theme>
@@ -13,6 +13,7 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       Apsect Ratio Options:
       16:10 = 16-10
       16:9 = 16-9
+      4:3 = 4-3
       --><aspectRatio>16-9</aspectRatio>
       <!-- 
       Gamelist Style Options:
