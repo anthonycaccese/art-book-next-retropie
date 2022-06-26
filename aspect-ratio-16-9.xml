@@ -10,6 +10,9 @@
       <text name="logoText">
          <fontSize>0.15</fontSize>
       </text>
+      <image name="background-art-mask" extra="true">
+         <path>./_inc/images/utility/background-art-mask-16-9.svg</path>
+      </image>
    </view>
 
    <view name="basic,detailed,video">

@@ -1,0 +1,39 @@
+<theme>
+   <formatVersion>6</formatVersion>
+   <include>./../theme.xml</include>
+   <view name="detailed,video">
+      <datetime name="md_lastplayed">
+         <pos>1 1</pos>
+      </datetime>
+      <rating name="md_rating">
+         <pos>1 1</pos>
+      </rating>
+      <text name="md_genre">
+         <pos>1 1</pos>
+      </text>
+      <image name="md_players_icon" extra="true">
+         <pos>1 1</pos>
+      </image>
+      <text name="md_players">
+         <pos>1 1</pos>
+      </text>
+      <image name="md_releasedate_icon" extra="true">
+         <pos>1 1</pos>
+      </image>
+      <datetime name="md_releasedate">
+         <pos>1 1</pos>
+      </datetime>
+      <image name="md_developer_icon" extra="true">
+         <pos>1 1</pos>
+      </image>
+      <text name="md_developer">
+         <pos>1 1</pos>
+      </text>
+      <image name="md_publisher_icon" extra="true">
+         <pos>1 1</pos>
+      </image>
+      <text name="md_publisher">
+         <pos>1 1</pos>
+      </text>
+   </view>
+</theme>
