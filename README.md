@@ -1,4 +1,4 @@
-# Art Book Next (RetroPie Edition)
+# Art Book Next (RetroPie Version)
 A simple theme for EmulationStation and RetroPie based on the look of a coffee table book.
 
 ## Preview
