@@ -101,7 +101,7 @@ Gamelist Style - Metadata On - 16:10
    <view name="video">
       <image name="md_image">
          <origin>0 1</origin>
-         <pos>0.453125 0.70625</pos><!-- 580 565 -->
+         <pos>1 1</pos><!-- 580 565 -->
          <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
       </image>
       <image name="md_marquee">
