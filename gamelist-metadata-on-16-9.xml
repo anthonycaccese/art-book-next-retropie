@@ -7,7 +7,7 @@ Gamelist Style - Metadata On - 16:9
    <formatVersion>6</formatVersion>
 
    <view name="detailed,video">
-      <text name="md_lbl_rating,md_lbl_developer,md_lbl_publisher,md_lbl_playcount,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_lbl_genre,md_name,md_playcount">
+      <text name="md_lbl_rating,md_lbl_developer,md_lbl_publisher,md_lbl_playcount,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_lbl_genre,md_name,md_playcount,md_lbl_gametime,md_gametime">
          <pos>1 1</pos>
       </text>
       <datetime name="md_lastplayed">
@@ -35,7 +35,7 @@ Gamelist Style - Metadata On - 16:9
          <pos>0.756680731364276 0.92125</pos><!-- 1076 737 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-players.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_players">
          <pos>0.774964838255977 0.9175</pos><!-- 1102 734 -->
@@ -47,7 +47,7 @@ Gamelist Style - Metadata On - 16:9
          <pos>0.864978902953586 0.83625</pos><!-- 1230 669 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-calendar.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <datetime name="md_releasedate">
          <pos>0.883263009845288 0.8325</pos><!-- 1256 666 -->
@@ -60,7 +60,7 @@ Gamelist Style - Metadata On - 16:9
          <pos>0.864978902953586 0.88125</pos><!-- 1230 705 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-wrench.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_developer">
          <pos>0.883263009845288 0.875</pos><!-- 1256 700 -->
@@ -72,7 +72,7 @@ Gamelist Style - Metadata On - 16:9
          <pos>0.864978902953586 0.925</pos><!-- 1230 740 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-ship.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_publisher">
          <pos>0.883263009845288 0.9175</pos><!-- 1256 734 -->

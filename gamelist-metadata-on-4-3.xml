@@ -7,7 +7,7 @@ Gamelist Style - Metadata On - 4:3
    <formatVersion>6</formatVersion>
 
    <view name="detailed,video">
-      <text name="md_lbl_rating,md_lbl_developer,md_lbl_publisher,md_lbl_playcount,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_lbl_genre,md_name,md_playcount">
+      <text name="md_lbl_rating,md_lbl_developer,md_lbl_publisher,md_lbl_playcount,md_lbl_lastplayed,md_lbl_players,md_lbl_releasedate,md_lbl_genre,md_name,md_playcount,md_lbl_gametime,md_gametime">
          <pos>1 1</pos>
       </text>
       <datetime name="md_lastplayed">
@@ -15,12 +15,12 @@ Gamelist Style - Metadata On - 4:3
       </datetime>
       <text name="md_genre">
          <pos>0.543580131208997 0.8575</pos><!-- 580 686 -->
-         <size>0 0</size>
+         <size>0.1875 0.025</size><!-- 120 20 -->
          <fontSize>0.025</fontSize><!-- 20 -->
       </text>
       <text name="md_description">
-         <pos>0.543580131208997 0.5375</pos><!-- 580 430 -->
-         <size>0.418931583880037 0.24</size><!-- 447 191 -->
+         <pos>0.543580131208997 0.525</pos><!-- 580 420 -->
+         <size>0.418931583880037 0.25</size><!-- 447 191 -->
          <lineSpacing>1.36</lineSpacing>
          <fontSize>0.03</fontSize><!-- 24 -->
       </text>
@@ -32,14 +32,14 @@ Gamelist Style - Metadata On - 4:3
       </rating>
       <image name="md_releasedate_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.764761012183693 0.8175</pos><!-- 816 654 -->
+         <pos>0.764761012183693 0.82</pos><!-- 816 656 -->
          <maxSize>00.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-calendar.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <datetime name="md_releasedate">
-         <pos>0.78912839737582 0.8125</pos><!-- 842 650 -->
-         <size>0 0</size><!-- 130 y -->
+         <pos>0.78912839737582 0.82</pos><!-- 842 656 -->
+         <size>0.1875 0.025</size><!-- 120 20 -->
          <format>%Y-%m-%d</format>
          <fontSize>0.025</fontSize><!-- 20 -->
       </datetime>
@@ -48,11 +48,11 @@ Gamelist Style - Metadata On - 4:3
          <pos>0.543580131208997 0.90625</pos><!-- 580 725 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-players.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_players">
          <pos>0.567947516401125 0.9</pos><!-- 606 720 -->
-         <size>0.1015625 0</size><!-- 130 y -->
+         <size>0.1875 0.025</size><!-- 120 20 -->
          <fontSize>0.025</fontSize><!-- 20 -->
       </text>
       <image name="md_developer_icon" extra="true">
@@ -60,7 +60,7 @@ Gamelist Style - Metadata On - 4:3
          <pos>0.764761012183693 0.86375</pos><!-- 816 691 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-wrench.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_developer">
          <pos>0.78912839737582 0.86125</pos><!-- 842 689 -->
@@ -72,7 +72,7 @@ Gamelist Style - Metadata On - 4:3
          <pos>0.764761012183693 0.90625</pos><!-- 816 725 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-ship.svg</path>
-         <color>555555</color>
+         <color>${metadataIconColor}</color>
       </image>
       <text name="md_publisher">
          <pos>0.78912839737582 0.9025</pos><!-- 842 725 -->
@@ -102,7 +102,7 @@ Gamelist Style - Metadata On - 4:3
       <image name="md_image">
          <origin>0 1</origin>
          <pos>0.543580131208997 0.494</pos><!-- 580 395.2 -->
-         <maxSize>0.121836925960637 0.1625</maxSize><!-- 130 130 -->
+         <maxSize>0.131208997188379 0.175</maxSize><!-- 130 130 -->
       </image>
       <image name="md_marquee">
          <origin>1 1</origin>

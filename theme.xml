@@ -14,15 +14,31 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       16:10 = 16-10
       16:9 = 16-9
       4:3 = 4-3
-      --><aspectRatio>16-9</aspectRatio>
+      -->
+      <aspectRatio>16-9</aspectRatio>
       <!-- 
       Gamelist Style Options:
       metadata-off
       metadata-on
-      --><gameListStyle>metadata-on</gameListStyle>
+      -->
+      <gameListStyle>metadata-on</gameListStyle>
       <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
       <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
       <spacerImage>./_inc/images/utility/space.png</spacerImage>
+      <!-- 
+      Color Settings
+      -->
+      <backgroundColor>222222</backgroundColor>
+      <gamelistBackgroundColor>111111</gamelistBackgroundColor>
+      <systemBackgroundColor>111111</systemBackgroundColor>
+      <ratingColor>555555</ratingColor>
+      <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+      <gamelistUnSelectedColor>ffffff33</gamelistUnSelectedColor>
+      <logoColor>ffffffaa</logoColor>
+      <logoTextColor>ffffffaa</logoTextColor>
+      <metadataColor>ffffff88</metadataColor>
+      <metadataIconColor>ffffff33</metadataIconColor>
+      <descriptionColor>ffffffee</descriptionColor>
    </variables>
 
    <view name="system,basic,detailed,video">
@@ -37,7 +53,7 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <forceUppercase>true</forceUppercase>
          <lineSpacing>1</lineSpacing>
          <alignment>center</alignment>
-         <color>ffffff</color>
+         <color>${logoTextColor}</color>
       </text>
    </view>
 
@@ -48,7 +64,7 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>111111</color>
+         <color>000000</color>
          <zIndex>0</zIndex>
       </image>
       <carousel name="systemcarousel">
@@ -77,36 +93,37 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <pos>0.5 0</pos>
          <size>1 1</size>
          <zIndex>2</zIndex>
+         <color>${systemBackgroundColor}</color>
       </image>
    </view>
 
    <view name="basic,detailed,video">
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <color>aaaaaa</color>
-         <zIndex>2</zIndex>
+         <color>${logoColor}</color>
+         <zIndex>5</zIndex>
       </image>
       <text name="logoText">
          <origin>0.5 0.5</origin>
-         <color>ffffffcc</color>
-         <zIndex>2</zIndex>
+         <color>${logoTextColor}</color>
+         <zIndex>5</zIndex>
       </text>
       <textlist name="gamelist">
          <origin>0 0</origin>
          <alignment>left</alignment>
          <fontPath>${bodyFont}</fontPath>
-         <selectorColor>111111</selectorColor>
-         <selectedColor>ffffff</selectedColor>
-         <primaryColor>444444</primaryColor>
-         <secondaryColor>444444</secondaryColor>
-         <zIndex>2</zIndex>
+         <selectorColor>00000000</selectorColor>
+         <selectedColor>${gamelistSelectedColor}</selectedColor>
+         <primaryColor>${gamelistUnSelectedColor}</primaryColor>
+         <secondaryColor>${gamelistUnSelectedColor}</secondaryColor>
+         <zIndex>5</zIndex>
       </textlist>
       <image name="gamelist-background" extra="true">
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>111111</color>
-         <zIndex>1</zIndex>
+         <color>${gamelistBackgroundColor}</color>
+         <zIndex>4</zIndex>
       </image>
       <image name="background" extra="true">
          <origin>0 0</origin>
@@ -114,7 +131,7 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>222222</color>
+         <color>${backgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
    </view>
@@ -125,21 +142,21 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <alignment>left</alignment>
       </text>
       <text name="md_genre,md_lbl_players,md_players">
-         <color>888888</color>
+         <color>${metadataColor}</color>
       </text>
       <text name="md_description">
-         <color>dddddd</color>
+         <color>${descriptionColor}</color>
       </text>
       <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
-         <color>888888</color>
+         <color>${metadataColor}</color>
       </text>
       <datetime name="md_releasedate,md_lastplayed">
          <fontPath>${bodyFont}</fontPath>
-         <color>888888</color>
+         <color>${metadataColor}</color>
          <alignment>left</alignment>
       </datetime>
       <rating name="md_rating">
-         <color>555555</color>
+         <color>${ratingColor}</color>
       </rating>
    </view>
 

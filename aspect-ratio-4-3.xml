@@ -26,8 +26,8 @@
          <fontSize>0.05</fontSize>
       </text>
       <textlist name="gamelist">
-         <pos>0.046860356138707 0.25</pos><!-- 50 200 -->
-         <size>0.398313027179007 0.7</size><!-- 425 542.5 -->
+         <pos>0.046860356138707 0.24</pos><!-- 50 192 -->
+         <size>0.384254920337395 0.725</size><!-- 410 542.5 -->
          <lineSpacing>1.585</lineSpacing>
          <fontSize>0.04</fontSize><!-- 32 -->
       </textlist>
