@@ -161,8 +161,8 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       </rating>
    </view>
 
+   <include>${themeCustomizationsPath}theme.xml</include>
    <include>./aspect-ratio-${aspectRatio}.xml</include>
    <include>./gamelist-${gameListStyle}-${aspectRatio}.xml</include>
-   <include>${themeCustomizationsPath}theme.xml</include>
 
 </theme>
