@@ -115,8 +115,8 @@ Gamelist Style - Metadata On - 16:10
          <maxSize>0.515625 0.61875</maxSize><!-- 660 495 -->
          <zIndex>2</zIndex>
          <delay>0.5</delay>
-         <showSnapshotDelay>false</showSnapshotDelay>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
    </view>
 
