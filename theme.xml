@@ -25,6 +25,7 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
       <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
       <spacerImage>./_inc/images/utility/space.png</spacerImage>
+      <themeCustomizationsPath>~/.emulationstation/theme-customizations/art-book-next-retropie/</themeCustomizationsPath>
       <!-- 
       Color Settings
       -->
@@ -162,5 +163,6 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
 
    <include>./aspect-ratio-${aspectRatio}.xml</include>
    <include>./gamelist-${gameListStyle}-${aspectRatio}.xml</include>
+   <include>${themeCustomizationsPath}theme.xml</include>
 
 </theme>
