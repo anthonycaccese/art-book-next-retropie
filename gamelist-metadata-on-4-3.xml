@@ -99,7 +99,7 @@ Gamelist Style - Metadata On - 4:3
    </view>
 
    <view name="video">
-      <image name="md_image">
+      <image name="md_thumbnail">
          <origin>0 1</origin>
          <pos>0.543580131208997 0.494</pos><!-- 580 395.2 -->
          <maxSize>0.131208997188379 0.175</maxSize><!-- 130 130 -->
@@ -115,8 +115,8 @@ Gamelist Style - Metadata On - 4:3
          <maxSize>0.418931583880037 0.419</maxSize><!-- 447 335.2 -->
          <zIndex>2</zIndex>
          <delay>0.5</delay>
-         <showSnapshotDelay>false</showSnapshotDelay>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
    </view>
 
