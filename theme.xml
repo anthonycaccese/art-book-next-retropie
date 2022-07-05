@@ -9,6 +9,9 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
    <formatVersion>6</formatVersion>
 
    <variables>
+      <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
+      <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
+      <spacerImage>./_inc/images/utility/space.png</spacerImage>
       <!-- 
       Apsect Ratio Options:
       16:10 = 16-10
@@ -22,10 +25,6 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       metadata-on
       -->
       <gameListStyle>metadata-on</gameListStyle>
-      <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
-      <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
-      <spacerImage>./_inc/images/utility/space.png</spacerImage>
-      <themeCustomizationsPath>~/.emulationstation/theme-customizations/art-book-next-retropie/</themeCustomizationsPath>
       <!-- 
       Color Settings
       -->
@@ -161,7 +160,6 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       </rating>
    </view>
 
-   <include>${themeCustomizationsPath}theme.xml</include>
    <include>./aspect-ratio-${aspectRatio}.xml</include>
    <include>./gamelist-${gameListStyle}-${aspectRatio}.xml</include>
 
