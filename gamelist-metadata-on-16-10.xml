@@ -114,7 +114,7 @@ Gamelist Style - Metadata On - 16:10
          <pos>0.702734375 0.371875</pos><!-- 899.5 297.5 -->
          <maxSize>0.515625 0.61875</maxSize><!-- 660 495 -->
          <zIndex>2</zIndex>
-         <delay>0.5</delay>
+         <delay>1</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
