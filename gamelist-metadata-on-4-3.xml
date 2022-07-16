@@ -13,39 +13,26 @@ Gamelist Style - Metadata On - 4:3
       <datetime name="md_lastplayed">
          <pos>1 1</pos>
       </datetime>
-      <text name="md_genre">
-         <pos>0.543580131208997 0.8575</pos><!-- 580 686 -->
-         <size>0.1875 0.025</size><!-- 120 20 -->
-         <fontSize>0.025</fontSize><!-- 20 -->
-      </text>
       <text name="md_description">
-         <pos>0.543580131208997 0.525</pos><!-- 580 420 -->
-         <size>0.418931583880037 0.25</size><!-- 447 191 -->
+         <pos>0.543580131208997 0.546</pos><!-- 580 420 -->
+         <size>0.418931583880037 0.208</size><!-- 447 191 -->
          <lineSpacing>1.36</lineSpacing>
          <fontSize>0.03</fontSize><!-- 24 -->
       </text>
       <rating name="md_rating">
-         <pos>0.543580131208997 0.815</pos><!-- 580 652 -->
+         <pos>0.543580131208997 0.802</pos><!-- 580 652 -->
          <size>0 0.03</size><!-- x 24 -->
          <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
       </rating>
-      <image name="md_releasedate_icon" extra="true">
-         <origin>0 0</origin>
-         <pos>0.764761012183693 0.82</pos><!-- 816 656 -->
-         <maxSize>00.016401124648547 0.025</maxSize><!-- 17.5 20 -->
-         <path>./_inc/images/utility/icon-calendar.svg</path>
-         <color>${metadataIconColor}</color>
-      </image>
-      <datetime name="md_releasedate">
-         <pos>0.78912839737582 0.82</pos><!-- 842 656 -->
+      <text name="md_genre">
+         <pos>0.543580131208997 0.853</pos><!-- 580 686 -->
          <size>0.1875 0.025</size><!-- 120 20 -->
-         <format>%Y-%m-%d</format>
          <fontSize>0.025</fontSize><!-- 20 -->
-      </datetime>
+      </text>
       <image name="md_players_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.543580131208997 0.90625</pos><!-- 580 725 -->
+         <pos>0.543580131208997 0.902</pos><!-- 580 725 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-players.svg</path>
          <color>${metadataIconColor}</color>
@@ -55,27 +42,40 @@ Gamelist Style - Metadata On - 4:3
          <size>0.1875 0.025</size><!-- 120 20 -->
          <fontSize>0.025</fontSize><!-- 20 -->
       </text>
+      <image name="md_releasedate_icon" extra="true">
+         <origin>0 0</origin>
+         <pos>0.764761012183693 0.806</pos><!-- 816 656 -->
+         <maxSize>00.016401124648547 0.025</maxSize><!-- 17.5 20 -->
+         <path>./_inc/images/utility/icon-calendar.svg</path>
+         <color>${metadataIconColor}</color>
+      </image>
+      <datetime name="md_releasedate">
+         <pos>0.78912839737582 0.806</pos><!-- 842 656 -->
+         <size>0.1875 0.025</size><!-- 120 20 -->
+         <format>%Y-%m-%d</format>
+         <fontSize>0.025</fontSize><!-- 20 -->
+      </datetime>
       <image name="md_developer_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.764761012183693 0.86375</pos><!-- 816 691 -->
+         <pos>0.764761012183693 0.855</pos><!-- 816 691 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-wrench.svg</path>
          <color>${metadataIconColor}</color>
       </image>
       <text name="md_developer">
-         <pos>0.78912839737582 0.86125</pos><!-- 842 689 -->
+         <pos>0.78912839737582 0.853</pos><!-- 842 689 -->
          <size>0.159325210871603 0.025</size><!-- 170 20 -->
          <fontSize>0.025</fontSize><!-- 20 -->
       </text>
       <image name="md_publisher_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.764761012183693 0.90625</pos><!-- 816 725 -->
+         <pos>0.764761012183693 0.904</pos><!-- 816 725 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-ship.svg</path>
          <color>${metadataIconColor}</color>
       </image>
       <text name="md_publisher">
-         <pos>0.78912839737582 0.9025</pos><!-- 842 725 -->
+         <pos>0.78912839737582 0.9</pos><!-- 842 725 -->
          <size>0.159325210871603 0.025</size><!-- 170 20 -->
          <fontSize>0.025</fontSize><!-- 20 -->
       </text>
@@ -85,7 +85,7 @@ Gamelist Style - Metadata On - 4:3
          <size>0.418931583880037 0.419</size><!-- 447 335.2 -->
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>000000</color>
+         <color>00000000</color>
          <zIndex>1</zIndex>
       </image>
    </view>
