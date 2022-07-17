@@ -103,20 +103,28 @@ Gamelist Style - Metadata On - 4:3
          <origin>0 1</origin>
          <pos>0.543580131208997 0.5</pos><!-- 580 395.2 -->
          <maxSize>0.15 0.2</maxSize><!-- 130 130 -->
+         <zIndex>6</zIndex>
       </image>
       <image name="md_marquee">
          <origin>1 1</origin>
          <pos>0.943767572633552 0.5</pos><!-- 1007 395.2 -->
          <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
+         <zIndex>6</zIndex>
+      </image>
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.743673851921275 0.272</pos><!-- 793.5 217.6 -->
+         <maxSize>0.418931583880037 0.419</maxSize><!-- 447 335.2 -->
+         <zIndex>4</zIndex>
       </image>
       <video name="md_video">
          <origin>0.5 0.5</origin>
          <pos>0.743673851921275 0.272</pos><!-- 793.5 217.6 -->
          <maxSize>0.418931583880037 0.419</maxSize><!-- 447 335.2 -->
-         <zIndex>2</zIndex>
+         <zIndex>5</zIndex>
          <delay>1</delay>
-         <showSnapshotDelay>true</showSnapshotDelay>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
       </video>
    </view>
 
