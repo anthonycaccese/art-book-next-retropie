@@ -112,8 +112,8 @@ Gamelist Style - Metadata On - 16:10
          <zIndex>6</zIndex>
       </image>
       <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.702734375 0.371875</pos><!-- 899.5 297.5 -->
+         <origin>0.5 0</origin>
+         <pos>0.702734375 0.0625</pos><!-- 899.5 50 -->
          <maxSize>0.515625 0.61875</maxSize><!-- 660 495 -->
          <zIndex>5</zIndex>
          <delay>1</delay>
