@@ -6,9 +6,9 @@ Discussion occuring here: https://retropie.org.uk/forum/topic/33010/theme-art-bo
 
 ## **Preview**
 
-| System View | Gamelist - Metadata On | Gamelist - Metadata Off |
-|----|----|----|
-| ![Screen Shot 2022-07-21 at 12 51 34](https://user-images.githubusercontent.com/1454947/180350112-d2d1f712-3fd2-4177-8007-4e60b37118a6.png) | ![Screen Shot 2022-07-21 at 12 47 54](https://user-images.githubusercontent.com/1454947/180350136-649904ec-9563-48e7-9976-3219326e2156.png) | ![Screen Shot 2022-07-21 at 12 52 05](https://user-images.githubusercontent.com/1454947/180350153-710189e2-4109-4fa1-a9b3-920308746cbb.png)
+| System View | Gamelist View |
+|----|----|
+| ![Screen Shot 2022-07-21 at 12 51 34](https://user-images.githubusercontent.com/1454947/180350112-d2d1f712-3fd2-4177-8007-4e60b37118a6.png) | ![Screen Shot 2022-07-21 at 12 47 54](https://user-images.githubusercontent.com/1454947/180350136-649904ec-9563-48e7-9976-3219326e2156.png) |
 
 ## **Configuration Options**
 
@@ -126,7 +126,7 @@ custom
 * If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and add that reference to this readme when ready.
 * If you use Batocera... then check out the version [here](https://github.com/anthonycaccese/es-theme-art-book-next/archive/2.0.zip).  The Batocera version has all the same base features but simply makes them available to change through Batocera's menu UI (i.e. you don't need to touch the XML as discussed above).  It also adds some additional features such as the ability to toggle on/off the display of different media elements directly through the menu ui as well.
 
-## **Acknowledgments**:
+## **Acknowledgments**
 * Most system logos were sourced and modified from the excellent work done by Dan Patrick [here](https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions).  I modified each to be compatible with EmulationStation's current SVG support.
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Oxygen font is by [Vernon Adams](https://www.fontsquirrel.com/fonts/oxygen)
