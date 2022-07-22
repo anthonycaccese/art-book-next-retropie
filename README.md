@@ -132,7 +132,8 @@ custom
 * Oxygen font is by [Vernon Adams](https://www.fontsquirrel.com/fonts/oxygen)
 
 ## **License**
-creative commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
+Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
+You are free to share and adapt this theme as long as you provide attribution back to me (and the above credits) as well share any updates you make under the same licence terms.
 
 ## **Download**
 For Retropie and ES-DE v1.x - https://github.com/anthonycaccese/art-book-next-retropie/archive/master.zip
