@@ -131,6 +131,9 @@ custom
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Oxygen font is by [Vernon Adams](https://www.fontsquirrel.com/fonts/oxygen)
 
+## **License**
+creative commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
+
 ## **Download**
 * For Retropie and ES-DE v1.x - https://github.com/anthonycaccese/art-book-next-retropie/archive/master.zip
 
