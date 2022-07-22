@@ -135,6 +135,6 @@ custom
 creative commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
 
 ## **Download**
-* For Retropie and ES-DE v1.x - https://github.com/anthonycaccese/art-book-next-retropie/archive/master.zip
+For Retropie and ES-DE v1.x - https://github.com/anthonycaccese/art-book-next-retropie/archive/master.zip
 
 Thank you for taking a look at this 😄
