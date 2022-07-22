@@ -123,8 +123,8 @@ custom
    * `md_video` = video (though this is optional as the theme also works with just md_image)
 
 ### Versions for other ES forks:
-* If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and add that reference to this readme when ready.
-* If you use Batocera... then check out the version [here](https://github.com/anthonycaccese/es-theme-art-book-next/archive/2.0.zip).  The Batocera version has all the same base features but simply makes them available to change through Batocera's menu UI (i.e. you don't need to touch the XML as discussed above).  It also adds some additional features such as the ability to toggle on/off the display of different media elements directly through the menu ui as well.
+* If you use ES-DE... then this version of the theme will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.  I'm also working on a version to support the 2.0 theme engine that the ES-DE team is working on and will post that here when available.
+* If you use Batocera... then check out the version [here](https://github.com/anthonycaccese/es-theme-art-book-next/archive/2.0.zip).  The Batocera version has all the same base features but simply makes them available to change through Batocera's menu UI (i.e. you don't need to touch the XML as discussed above).  It also adds some additional features such as the theming of the menu and the ability to toggle on/off the display of different media elements directly through the menu ui as well.
 
 ## **Acknowledgments**
 * Most system logos were sourced and modified from the excellent work done by Dan Patrick [here](https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions).  I modified each to be compatible with EmulationStation's current SVG support.
@@ -137,4 +137,4 @@ creative commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0
 ## **Download**
 * For Retropie and ES-DE v1.x - https://github.com/anthonycaccese/art-book-next-retropie/archive/master.zip
 
-Thank you for taking a look at this!
+Thank you for taking a look at this 😄
