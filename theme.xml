@@ -21,7 +21,9 @@ license:       creative commons CC-BY-NC-SA
       <!-- 
       Gamelist Style Options:
       metadata-off
+      metadata-off-zoomed
       metadata-on
+      metadata-on-miximage
       -->
       <gameListStyle>metadata-on</gameListStyle>
       <!-- 
