@@ -22,7 +22,7 @@ Gamelist Style - Metadata Off Zoomed - 16:9
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.682841068917018 0.5</pos><!-- 971 400 -->
-         <size>0 1</size>
+         <maxSize>1.042194092827004 1.1725</maxSize><!-- 1482 938 -->
          <zIndex>1</zIndex>
       </image>
    </view>
