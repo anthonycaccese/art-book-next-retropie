@@ -112,7 +112,7 @@ Gamelist Style - Metadata On Miximage - 4:3
          <pos>0.743673851921275 0.272</pos><!-- 793.5 217.6 -->
          <maxSize>0.418931583880037 0.419</maxSize><!-- 447 335.2 -->
          <zIndex>5</zIndex>
-         <delay>1</delay>
+         <delay>2</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>

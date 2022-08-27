@@ -116,7 +116,7 @@ Gamelist Style - Metadata On - 16:9
          <pos>0.682489451476793 0.05</pos><!-- 970.5 40 -->
          <maxSize>0.562587904360056 0.751875</maxSize><!-- 802 601.5 -->
          <zIndex>5</zIndex>
-         <delay>1</delay>
+         <delay>2</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>

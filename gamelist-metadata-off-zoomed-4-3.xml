@@ -38,7 +38,7 @@ Gamelist Style - Metadata Off Zoomed - 4:3
          <pos>0.743673851921275 0.5</pos><!-- 793.5 400 -->
          <maxSize>1.042174320524836 1.1725</maxSize><!-- 1112 938 -->
          <zIndex>1</zIndex>
-         <delay>1</delay>
+         <delay>2</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>

@@ -11,7 +11,7 @@
          <fontSize>0.15</fontSize>
       </text>
       <image name="background-art-mask" extra="true">
-         <path>./_inc/images/utility/background-art-mask-16-10.svg</path>
+         <path>./_inc/images/utility/background-art-mask-16-10.png</path>
       </image>
    </view>
 
