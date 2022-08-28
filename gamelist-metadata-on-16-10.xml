@@ -32,7 +32,7 @@ Gamelist Style - Metadata On - 16:10
       </rating>
       <image name="md_releasedate_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.8453125 0.7875</pos><!-- 1082 630 -->
+         <pos>0.8453125 0.789</pos><!-- 1082 630 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-calendar.svg</path>
          <color>${metadataIconColor}</color>
@@ -45,7 +45,7 @@ Gamelist Style - Metadata On - 16:10
       </datetime>
       <image name="md_players_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.8453125 0.835</pos><!-- 1082 668 -->
+         <pos>0.8453125 0.838</pos><!-- 1082 668 -->
          <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-players.svg</path>
          <color>${metadataIconColor}</color>
