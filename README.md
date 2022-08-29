@@ -1,4 +1,4 @@
-# Art Book Next ([RetroPie](https://retropie.org.uk/) Version)
+# Art Book Next (RetroPie Version)
 A simple theme for the version of EmulationStation used in [RetroPie](https://retropie.org.uk/).  
 Based on the style of a coffee table book.
 
