@@ -17,7 +17,7 @@ license:       creative commons CC-BY-NC-SA
       16:9 = 16-9
       4:3 = 4-3
       -->
-      <aspectRatio>16-10</aspectRatio>
+      <aspectRatio>16-9</aspectRatio>
       <!-- 
       Gamelist Style Options:
       metadata-off
@@ -25,7 +25,7 @@ license:       creative commons CC-BY-NC-SA
       metadata-on
       metadata-on-miximage
       -->
-      <gameListStyle>metadata-on-miximage</gameListStyle>
+      <gameListStyle>metadata-on</gameListStyle>
       <!-- 
       Color Scheme Options:
       art-book-next

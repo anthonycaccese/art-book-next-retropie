@@ -91,16 +91,12 @@ Gamelist Style - Metadata On - 16:9
 
    <view name="video">
       <image name="md_thumbnail">
-         <origin>0 1</origin>
-         <pos>0.414908579465541 0.776875</pos><!-- 590 621.5 -->
-         <maxSize>0.133614627285513 0.2375</maxSize><!-- 190 190 -->
-         <zIndex>6</zIndex>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
       </image>
       <image name="md_marquee">
-         <origin>1 1</origin>
-         <pos>0.950773558368495 0.776875</pos><!-- 1352 621.5 -->
-         <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
-         <zIndex>6</zIndex>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
       </image>
       <video name="md_video">
          <origin>0.5 0</origin>

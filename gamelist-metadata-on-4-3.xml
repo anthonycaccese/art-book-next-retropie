@@ -32,7 +32,7 @@ Gamelist Style - Metadata On - 4:3
       </text>
       <image name="md_players_icon" extra="true">
          <origin>0 0</origin>
-         <pos>0.543580131208997 0.911</pos><!-- 580 725 -->
+         <pos>0.543580131208997 0.913</pos><!-- 580 725 -->
          <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
          <path>./_inc/images/utility/icon-players.svg</path>
          <color>${metadataIconColor}</color>
@@ -91,16 +91,12 @@ Gamelist Style - Metadata On - 4:3
 
    <view name="video">
       <image name="md_thumbnail">
-         <origin>0 1</origin>
-         <pos>0.543580131208997 0.5</pos><!-- 580 395.2 -->
-         <maxSize>0.15 0.2</maxSize><!-- 130 130 -->
-         <zIndex>6</zIndex>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
       </image>
       <image name="md_marquee">
-         <origin>1 1</origin>
-         <pos>0.943767572633552 0.5</pos><!-- 1007 395.2 -->
-         <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
-         <zIndex>6</zIndex>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
       </image>
       <video name="md_video">
          <origin>0.5 0.5</origin>
